@@ -1,0 +1,12 @@
+snout-images
+Copyright 2026 Joel Oliver, operating as SnoutData
+
+This repository's own files (the Containerfile and its documentation) are licensed under the
+Apache License, Version 2.0 (see LICENSE).
+
+The image it builds is imgproxy's published image, unmodified, which contains:
+- imgproxy, Copyright (c) Sergey Alexandrovich, under the MIT License
+  (https://github.com/imgproxy/imgproxy)
+- libvips, under the GNU Lesser General Public License, version 2.1 or later
+  (https://github.com/libvips/libvips)
+- the codec libraries imgproxy ships, each under its own licence, as listed in imgproxy's image.
