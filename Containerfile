@@ -9,7 +9,9 @@ FROM docker.io/darthsim/imgproxy:v3.30.1@sha256:3b709e4a0e5e8e0e959b556b70312292
 LABEL org.opencontainers.image.title="snout-images" \
 	org.opencontainers.image.description="imgproxy v3.30.1, unmodified, with SnoutData Cloud's defaults. All image processing is imgproxy's and libvips'." \
 	org.opencontainers.image.base.name="docker.io/darthsim/imgproxy:v3.30.1" \
-	org.opencontainers.image.licenses="MIT AND LGPL-2.1-or-later AND Apache-2.0"
+	org.opencontainers.image.licenses="MIT AND LGPL-2.1-or-later AND Apache-2.0" \
+	com.snoutdata.stack="1" \
+	com.snoutdata.component="images"
 
 # The defaults the fleet already set on imgproxy directly. Every one is imgproxy's own variable,
 # and a value given to the container overrides it.
